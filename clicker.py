@@ -1,19 +1,16 @@
 # v20210119
 import time
 
-# number type (integer/long/float/double) -- time to delay between keys
-# string type keys shoult be press
-# example MACRO_KEYS = [2.7, "1", "2", 1, "z", ""]
-# set delay between keys 2.7 seconds,2) push key 1, delay, push key 2, set delay between keys 1 second, push key z, wait (no key press), restart cycle
-
 # MB? = mouse.click_relative_self(x, y, button number). Can use at keyboard key position
 MB1 = [0, 0, 1]
 MB2 = [0, 0, 2]
 
 # number type (integer/float) -- time to delay between keys
 # string type keys shoult be press
-MACRO_KEYS = [2.7, "1", "2", "1", "3", "3", "6", "1", "z", "1", ""]
+# example MACRO_KEYS = [2.7, "1", "2", 1, "z", ""]
+# set delay between keys 2.7 seconds, push key 1, delay, push key 2, delay, set delay between keys 1 second, push key z, delay, empty key(no key press) delay, restart cycle
 
+MACRO_KEYS = [2.7, "1", "2", "1", "3", "3", "6", "1", "z", "1", ""]
 
 # configure
 MAX_CYCLE_COUNT = 10000	# max cycles limit count
