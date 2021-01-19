@@ -13,10 +13,10 @@ MB2 = [0, 0, 2]
 MACRO_KEYS = [2.7, "1", "2", "1", "3", "3", "6", "1", "z", "1", ""]
 
 # configure
-MAX_CYCLE_COUNT = 10000	# max cycles limit count
-MAX_WORK_TIME = 12 * 60 * 60	# maximum work time limit in seconds
-STOP_KEY = '<escape>'		# key to break macros
-DELAY_BEFORE_SCRIPT_RUN = 0.5	# delay before script run in seconds
+STOP_KEY = '<escape>'           # key to break macros
+MAX_CYCLE_COUNT = 10000         # max cycles limit count
+MAX_WORK_TIME = 12 * 60 * 60    # maximum work time limit in seconds
+DELAY_BEFORE_SCRIPT_RUN = 0.5   # delay before script run in seconds
 
 ############################################################################################
 break_flag = False
